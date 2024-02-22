@@ -1,0 +1,124 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30153.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x006DC1B0 -il C:\\Users\\mine4\\AppData\\Local\\Temp\\_CL_2c72dc4bast -typedil -f CHOOO LOADER.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930153 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Program Files\\cURL\\bin -I C:\\Users\\mine4\\Downloads\\curl-8.5.0_6-win64-mingw\\curl-8.5.0_6-win64-mingw\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -GF -Og -Ot -Oy -Oi -ltcg -DCODE_ANALYSIS -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -MD -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Fox64\\Release\\CHOOO LOADER.obj -Fdx64\\Release\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\mine4\\source\\repos\\CHOOO LOADER -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\mine4\\source\\repos\\CHOOO LOADER\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\mine4\\source\\repos\\CHOOO LOADER\\Include\\um -I C:\\Users\\mine4\\source\\repos\\CHOOO LOADER\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/source/repos/chooo loader/chooo loader.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "249d4e609ee641d2c0690535d2f981fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/downloads/curl-8.5.0_6-win64-mingw/curl-8.5.0_6-win64-mingw/include/curl/curl.h"
+          },
+          "hashes": {
+            "md5": "3c310ecebf9c91fbd0a6b96e470f4bcf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/downloads/curl-8.5.0_6-win64-mingw/curl-8.5.0_6-win64-mingw/include/curl/curlver.h"
+          },
+          "hashes": {
+            "md5": "d4fb873ee86bebfe88b908859b5acc55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/downloads/curl-8.5.0_6-win64-mingw/curl-8.5.0_6-win64-mingw/include/curl/system.h"
+          },
+          "hashes": {
+            "md5": "9475351c27a34eb92eade9fd2b1f70c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/downloads/curl-8.5.0_6-win64-mingw/curl-8.5.0_6-win64-mingw/include/curl/easy.h"
+          },
+          "hashes": {
+            "md5": "6b48ca1acb86314fe2995895b3c89349"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/downloads/curl-8.5.0_6-win64-mingw/curl-8.5.0_6-win64-mingw/include/curl/multi.h"
+          },
+          "hashes": {
+            "md5": "58007de8d2bfb7f8c4a6f18b0945d688"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/downloads/curl-8.5.0_6-win64-mingw/curl-8.5.0_6-win64-mingw/include/curl/urlapi.h"
+          },
+          "hashes": {
+            "md5": "a396a57b2302c3bb1dc2158c362a0f93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/downloads/curl-8.5.0_6-win64-mingw/curl-8.5.0_6-win64-mingw/include/curl/options.h"
+          },
+          "hashes": {
+            "md5": "46379a6ce066b3d62af1a6089dad7dc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/downloads/curl-8.5.0_6-win64-mingw/curl-8.5.0_6-win64-mingw/include/curl/header.h"
+          },
+          "hashes": {
+            "md5": "4193c2c16507efc3683d0a5efcca12cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/downloads/curl-8.5.0_6-win64-mingw/curl-8.5.0_6-win64-mingw/include/curl/websockets.h"
+          },
+          "hashes": {
+            "md5": "c7a8aaca8778c600d163e6c8c7d2e34d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/downloads/curl-8.5.0_6-win64-mingw/curl-8.5.0_6-win64-mingw/include/curl/mprintf.h"
+          },
+          "hashes": {
+            "md5": "e7330ec5298bd2aeca130c9e8d74224d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mine4/source/repos/chooo loader/chooo loader.h"
+          },
+          "hashes": {
+            "md5": "e95279e639a093d2b1cb93b84c747c8a"
+          }
+        }
+      ]
+    }
+  ]
+}

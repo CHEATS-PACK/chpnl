@@ -1,0 +1,3 @@
+﻿  CHOOO LOADER.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\mine4\source\repos\CHOOO LOADER\CHOOO LOADER.cpp(13,10): fatal error C1083: Не удается открыть файл включение: curl/curl.h: No such file or directory,
